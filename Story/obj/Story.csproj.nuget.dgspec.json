@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\frank.farzaneh\\Documents\\Programmering 1\\Story\\Story\\Story.csproj": {}
+    "C:\\Users\\farza\\Documents\\KodSkolan\\story\\Story_inital_inteklar\\Story\\Story.csproj": {}
   },
   "projects": {
-    "C:\\Users\\frank.farzaneh\\Documents\\Programmering 1\\Story\\Story\\Story.csproj": {
+    "C:\\Users\\farza\\Documents\\KodSkolan\\story\\Story_inital_inteklar\\Story\\Story.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\frank.farzaneh\\Documents\\Programmering 1\\Story\\Story\\Story.csproj",
+        "projectUniqueName": "C:\\Users\\farza\\Documents\\KodSkolan\\story\\Story_inital_inteklar\\Story\\Story.csproj",
         "projectName": "Story",
-        "projectPath": "C:\\Users\\frank.farzaneh\\Documents\\Programmering 1\\Story\\Story\\Story.csproj",
-        "packagesPath": "C:\\Users\\frank.farzaneh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\frank.farzaneh\\Documents\\Programmering 1\\Story\\Story\\obj\\",
+        "projectPath": "C:\\Users\\farza\\Documents\\KodSkolan\\story\\Story_inital_inteklar\\Story\\Story.csproj",
+        "packagesPath": "C:\\Users\\farza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\farza\\Documents\\KodSkolan\\story\\Story_inital_inteklar\\Story\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\frank.farzaneh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\farza\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

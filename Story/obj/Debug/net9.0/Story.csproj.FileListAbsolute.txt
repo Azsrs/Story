@@ -12,3 +12,18 @@ C:\Users\frank.farzaneh\Documents\Programmering 1\Story\Story\obj\Debug\net9.0\r
 C:\Users\frank.farzaneh\Documents\Programmering 1\Story\Story\obj\Debug\net9.0\Story.pdb
 C:\Users\frank.farzaneh\Documents\Programmering 1\Story\Story\obj\Debug\net9.0\Story.genruntimeconfig.cache
 C:\Users\frank.farzaneh\Documents\Programmering 1\Story\Story\obj\Debug\net9.0\ref\Story.dll
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\bin\Debug\net9.0\Story.exe
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\bin\Debug\net9.0\Story.deps.json
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\bin\Debug\net9.0\Story.runtimeconfig.json
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\bin\Debug\net9.0\Story.dll
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\bin\Debug\net9.0\Story.pdb
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.AssemblyInfoInputs.cache
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.AssemblyInfo.cs
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.csproj.CoreCompileInputs.cache
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.sourcelink.json
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.dll
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\refint\Story.dll
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.pdb
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\Story.genruntimeconfig.cache
+C:\Users\farza\Documents\KodSkolan\story\Story_inital_inteklar\Story\obj\Debug\net9.0\ref\Story.dll
