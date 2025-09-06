@@ -52,7 +52,7 @@ if (Attack1 == "dagger") //Om man väljer dagger
     Console.ReadLine();
     Console.WriteLine("Give up?");
 
-    static void EndGame() //method för att snabbt kunna döda spelaren+stänga programmet 
+    void EndGame() //method för att snabbt kunna döda spelaren+stänga programmet 
     {
         Console.WriteLine("Flatline.. Game Over");
         Console.ReadLine();
@@ -92,21 +92,27 @@ if (Attack1 == "dagger") //Om man väljer dagger
         Console.ReadLine();
         Console.WriteLine("Something within you just doesn't let up, huh?");
         Console.ReadLine();
-        Console.WriteLine("Do or die now, get up and finish this. It's you or him. \n Do you want to try and stab again? Or do you try and tackle him?");
-        string FightBack = Console.ReadLine().ToLower();
-        while (FightBack != "stab" && FightBack != "tackle")
-        {
-            Console.WriteLine("Stab or tackle?");
-            FightBack = Console.ReadLine();
-        }
-        
+        Console.WriteLine("A fire within you has been lit, you will not die!");
+        Console.ReadLine();
+        Console.WriteLine("You fly up from the ground, ready to fight for survival");
+        Console.ReadLine();
+        Console.WriteLine("Punch! Punch! Punch! Every hit like a small victory. You can't stop, you can't die!");
+        Console.ReadLine();
+        Console.WriteLine($"The crowd is chanting {name}, {name}!");
+        Console.ReadLine();
+        Console.WriteLine("Your opponent is down, but you can't stop punching.");
+        Thread.Sleep(50);
+        Console.WriteLine("The crowd isnt chanting anymore, but you can't stop punching.");
+        Console.ReadLine();
+        Console.WriteLine("You win!");
+        Environment.Exit(0);
     }
 }
 else if (Attack1 == "block")
 {
-    Console.WriteLine("placeholder");
+    Console.WriteLine("You weave to the side");
     Console.ReadLine();
-    Console.WriteLine("Well, you have to do something. What's so you reach for?");
+    Console.WriteLine("");
     string pocket = Console.ReadLine().ToLower();
 
 }
