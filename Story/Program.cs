@@ -40,7 +40,7 @@ while (Attack1 != "dagger" && Attack1 != "block") //ifall invalid svar
     Console.WriteLine("Do you block or do you use your dagger? Or might it be time to give up");
     Attack1 = Console.ReadLine().ToLower();
 }
-if (Attack1 == "dagger") //Om man väljer dagger
+if (Attack1 == "dagger") //väljer dagger
 {
     Console.WriteLine("You reach for your blade, and grip it tight in your right hand. Your opponent winds up a haymaker with his right fist aimed straight at your face, using the other hand to guard his face");
     Console.ReadLine();
@@ -52,7 +52,7 @@ if (Attack1 == "dagger") //Om man väljer dagger
     Console.ReadLine();
     Console.WriteLine("Give up?");
 
-    void EndGame() //method för att snabbt kunna döda spelaren+stänga programmet 
+    void EndGame() //method för att snabbt kunna döda spelaren+stänga programmet !!!Color change dont forget
     {
         Console.WriteLine("Flatline.. Game Over");
         Console.ReadLine();
@@ -67,18 +67,18 @@ if (Attack1 == "dagger") //Om man väljer dagger
         {
             Console.WriteLine("...");
             GiveUp = Console.ReadLine().ToLower();
-            if (GiveUp == "yes" || GiveUp == "no" || GiveUp == "fight")
+            if (GiveUp == "yes" || GiveUp == "no" || GiveUp == "fight") //incase man svarar rätt efter man svarat fel en gång
             {
                 break;
             }
         }
 
     }
-    if (InvalidAnswer == 3 || GiveUp == "yes")
+    if (InvalidAnswer == 3 || GiveUp == "yes") //ger upp
     {
         EndGame();
     }
-    if (GiveUp == "no")
+    else if (GiveUp == "no")
     {
         Console.WriteLine($"You can't give up. At least not yet!\n You try to pull yourself up, the crowd chanting your name {name}, {name}! Maybe all hope is not lost!");
         Console.ReadLine();
@@ -86,7 +86,7 @@ if (Attack1 == "dagger") //Om man väljer dagger
         Console.ReadLine();
         EndGame();
     }
-    if (GiveUp == "Fight")
+    else if (GiveUp == "fight")
     {
         Console.WriteLine("....");
         Console.ReadLine();
@@ -101,19 +101,70 @@ if (Attack1 == "dagger") //Om man väljer dagger
         Console.WriteLine($"The crowd is chanting {name}, {name}!");
         Console.ReadLine();
         Console.WriteLine("Your opponent is down, but you can't stop punching.");
-        Thread.Sleep(50);
+        Console.ReadLine();
         Console.WriteLine("The crowd isnt chanting anymore, but you can't stop punching.");
         Console.ReadLine();
-        Console.WriteLine("You win!");
+        Console.WriteLine("You win!"); //color change??
+        Console.ReadLine();
         Environment.Exit(0);
     }
 }
 else if (Attack1 == "block")
 {
-    Console.WriteLine("You weave to the side");
+    Console.WriteLine("You weave to the side and bring your arms up. His haymaker misses, leaving him wide open");
     Console.ReadLine();
-    Console.WriteLine("");
-    string pocket = Console.ReadLine().ToLower();
+    Console.WriteLine("Now's your chance! Do you try to hit him unconcius or do you stab him?");
+    string Chance = Console.ReadLine().ToLower();
+    while (Chance != "hit" && Chance != "stab")
+    {
+        Console.WriteLine("hit or stab?");
+        Chance = Console.ReadLine().ToLower();
+    }
+    if (Chance == "hit")
+    {
+        Console.WriteLine("You successfully hit him down to the ground");
+        Console.ReadLine();
+        Console.WriteLine("You can finish him off, secure the victory. Or do you leave him down and hope he gives up");
+        string FinishHim = Console.ReadLine().ToLower();
+        while (FinishHim != "finish" && FinishHim != "leave")
+        {
+            Console.WriteLine("Finish or Leave?");
+            FinishHim = Console.ReadLine();
+        }
+        if (FinishHim == "finish")
+        {
+            Console.WriteLine("Your opponent lies in front of you, he's not moving.. yet.\n You can't be too safe");
+            Console.ReadLine();
+            Console.WriteLine("You grab your dagger and walk toward him.. You're not a bad guy, you just don't want to die");
+            Console.ReadLine();
+            Console.WriteLine("As you lunge your arm toward your opponent and plant your knife in his stomach he suddenly comes to");
+            Console.ReadLine();
+            Console.WriteLine("He looks at you in horror for a few seconds. You're frozen still, you can't believe what you have done");
+            Console.ReadLine();
+            Console.WriteLine("Before you can even react; the look of horror from your opponent grows into a smile as you feel a sharp pain in your chest");
+            Console.ReadLine();
+            Console.WriteLine("As you realize what have just happened. You can't help but smile as well");
+            Console.ReadLine();
+            Console.WriteLine("As you drift away, opponent by your side, you feel a sense of calm. You somehow feel absolved of your sins");
+            Console.ReadLine();
+            Console.WriteLine("Game over, DRAW!"); //color
+            Console.ReadLine();
+            Environment.Exit(0);
+        }
+        if (FinishHim == "leave")
+        {
+            Console.WriteLine("No need to rub it in, he won't get up. He too wants this to be over, right?");
+            Console.ReadLine();
+            Console.WriteLine("The announcer starts counting: 1");
+            for (int i = 2; i < 10; i++) //for loop för att jag kan
+            {
+                Console.WriteLine(i);
+                Thread.Sleep(100);
+            }
+            Console.WriteLine("WIN by KO");
+        }
+    }
+
 
 }
 
